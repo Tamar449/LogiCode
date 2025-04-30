@@ -12,5 +12,7 @@ namespace Core.DTO
         public string Title { get; set; }
         public string Content { get; set; }
         public string? VideoUrl { get; set; }
+        public int ExerciseId { get; set; }
+
     }
 }
