@@ -14,7 +14,6 @@ namespace Core.DAO
         public string Content { get; set; }
         public string? VideoUrl { get; set; } 
 
-        public Course Course { get; set; }
         public Exercise Exercise { get; set; }
         public ICollection<StudentLesson> StudentLessons { get; set; }
 
